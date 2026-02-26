@@ -24,4 +24,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(showNextSlide, slideInterval);
 
+    /* ==============================
+       MOBILE MENU TOGGLE
+    =============================== */
+
+    const toggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+
+    if (toggle) {
+        toggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    }
+
+    /* ==============================
+       MOBILE DROPDOWN CLICK
+    =============================== */
+
+    const dropdown = document.querySelector(".dropdown");
+
+    if (dropdown) {
+        dropdown.addEventListener("click", () => {
+            if (window.innerWidth <= 900) {
+                dropdown.classList.toggle("active");
+            }
+        });
+    }
+
 });
+
