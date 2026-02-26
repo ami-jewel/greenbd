@@ -97,7 +97,7 @@ function loadServices(services) {
 /* ================= SLIDER ================= */
 function startSlider() {
 
-    let slides = document.querySelectorAll(".hero-slide"); // ✅ match CSS
+    let slides = document.querySelectorAll(".hero-slide");
     let current = 0;
 
     setInterval(() => {
