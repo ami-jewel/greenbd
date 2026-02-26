@@ -81,8 +81,8 @@ padding:12px 0;
 display:block;
 }
    
-.nav-links.active{
-display:flex;
+.nav-links a:hover{
+color:#27ae60;
 }
 
 .menu-toggle{
@@ -507,5 +507,6 @@ margin-bottom:20px;
 margin-bottom:10px;
 font-size:15px;
 }
+
 
 
