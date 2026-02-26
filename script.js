@@ -22,7 +22,8 @@ function loadHeader(header) {
     if (!headerLeft || !nav) return;
 
     headerLeft.innerHTML = `
-        <img src="${header.logo}" class="logo-img">
+        <img src="${header.logoMain}" class="logo-img">
+        <img src="${header.logoText}" class="logo-img second-logo">
     `;
 
     nav.innerHTML = "";
@@ -111,3 +112,4 @@ function startSlider() {
 
     }, 4000);
 }
+
