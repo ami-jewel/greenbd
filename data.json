@@ -33,7 +33,7 @@
       "services": [
         { "image": "img/host-serv.jpg", "title": "Web Hosting", "description": "High-performance hosting powered by secure infrastructure and SSD storage.", "link": "shared.html" },
         { "image": "img/dom-serv.jpg", "title": "Domain Services", "description": "Secure your brand identity online.", "link": "domain.html" },
-        { "image": "img/mail-serv.jpg", "title": "Dedicated Mail Server", "description": "Significantly more cost effective.", "link": "onpremise.html" },
+        { "image": "img/mail-serv.jpg", "title": "On-premise Mail Service", "description": "Significantly more cost effective.", "link": "onpremise.html" },
         { "image": "img/zimbra-serv.png", "title": "Zimbra Mail Hosting", "description": "Enterprise-grade email collaboration with security & reliability.", "link": "zimbra.html" },
         { "image": "img/cloud-serv.jpg", "title": "Cloud VPS", "description": "Scalable virtual private servers with SSD & high uptime.", "link": "cloud.html" },
         { "image": "img/ssl-serv.png", "title": "SSL Certificate", "description": "Secure your website with trusted encryption & HTTPS protection.", "link": "ssl.html" }
@@ -128,7 +128,7 @@
       "image": "img/vps.png"
     },
     "onpremise": {
-      "title": "On-Premise Mail server",
+      "title": "On-Premise Mail service",
       "paragraphs": [
         "GreenBD Hosting provides enterprise-grade On-Premise Mail Server solutions designed for organizations that require full control over their email infrastructure, security policies, and data governance.",
         "An on-premise setup means hosting and managing your software, data, and systems on physical servers owned or located within your company. This approach provides full control over configurations, updates, and security but requires significant investment in hardware and technical resources. Since you have full control, easily send outbound emails from devices and application servers that do not support OAuth."
@@ -149,3 +149,4 @@
     }
   }
 } 
+
