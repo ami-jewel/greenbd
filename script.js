@@ -33,7 +33,14 @@ function renderHeader(headerData) {
       <img src="${headerData.logo}" class="logo-img">
       <img src="${headerData.logoText}" class="logo-img second-logo">
     </div>
-    <nav class="nav-links">
+
+    <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+  
+    <nav class="nav-links" id="nav-links">
       ${headerData.nav.map(item => {
         if (item.dropdown) {
           return `
@@ -197,3 +204,4 @@ function initHeroSlider() {
 
   setInterval(showNextSlide, slideInterval);
 }
+
