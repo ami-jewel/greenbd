@@ -137,11 +137,11 @@
       "ownershipText": "Our on-premise mail server solution is deployed within your organization's physical or virtual infrastructure. This ensures that all business communications, user data, and compliance requirements remain under your direct control.",
       "idealFor": "Ideal For",
       "idealList": [
-        "Government organizations",
-        "Financial institutions",
-        "Healthcare providers",
-        "Educational institutions",
-        "Enterprises requiring strict data compliance"
+        "✔ Government organizations",
+        "✔ Financial institutions",
+        "✔ Healthcare providers",
+        "✔ Educational institutions",
+        "✔ Enterprises requiring strict data compliance"
       ],
       "support": "Professional Support & Maintenance",
       "supportText": "GreenBD Hosting offers ongoing maintenance, monitoring, patch management, and technical support to ensure operational stability and continuous uptime.",
@@ -149,4 +149,5 @@
     }
   }
 } 
+
 
