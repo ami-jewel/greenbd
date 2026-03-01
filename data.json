@@ -10,8 +10,8 @@
           "dropdown": [
             { "text": "Hosting Service", "url": "shared.html" },
             { "text": "Zimbra Mail Hosting", "url": "zimbra.html" },
-            { "text": "Domain Services", "url": "domain.html" },
-            { "text": "On-Premise Mail server", "url": "onpremise.html" },
+            { "text": "Domain Service", "url": "domain.html" },
+            { "text": "On-Premise Mail Service", "url": "onpremise.html" },
             { "text": "Cloud VPS", "url": "cloud.html" },
             { "text": "SSL Certificate", "url": "ssl.html" }
           ]
@@ -149,6 +149,7 @@
     }
   }
 } 
+
 
 
 
