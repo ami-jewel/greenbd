@@ -205,3 +205,31 @@ function initHeroSlider() {
   setInterval(showNextSlide, slideInterval);
 }
 
+/* =========================
+       MOBILE MENU
+    ========================== */
+
+    const toggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+
+    if(toggle){
+        toggle.addEventListener("click", function(){
+            nav.classList.toggle("active");
+        });
+    }
+
+    /* =========================
+       MOBILE DROPDOWN
+    ========================== */
+
+    const dropdown = document.querySelector(".dropdown");
+
+    if(dropdown){
+        dropdown.addEventListener("click", function(e){
+            if(window.innerWidth <= 900){
+                e.preventDefault();
+                dropdown.classList.toggle("active");
+            }
+        });
+    }
+
